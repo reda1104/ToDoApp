@@ -5,7 +5,7 @@ import 'util.dart';
 
 Widget fullAppbar(BuildContext context) {
   return PreferredSize(
-    preferredSize: Size.fromHeight(210.0),
+    preferredSize: Size.fromHeight(100.0),
     child: GradientAppBar(
       flexibleSpace: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
